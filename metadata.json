@@ -1,0 +1,25 @@
+{
+  "name": "CERNOps-cortex",
+  "version": "0.0.0",
+  "author": "CERNOps",
+  "summary": "This module is responsible for the installation and configuration of the Cortex application.",
+  "license": "Apache-2.0",
+  "source": "https://gitlab.cern.ch/ai/it-puppet-module-cortex",
+  "dependencies": [
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "7",
+        "8"
+      ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    }
+  ]
+}

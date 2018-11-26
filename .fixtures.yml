@@ -1,0 +1,7 @@
+fixtures:
+  repositories:
+    vcsrepo:
+      repo:   "ssh://git@gitlab.cern.ch:7999/ai/it-puppet-module-vcsrepo.git"
+      subdir: "code"
+  symlinks:
+   "cortex": "#{source_dir}"
