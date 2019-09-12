@@ -5,6 +5,7 @@ class cortex::service {
   require ::cortex::config
 
   service { 'cortex.service':
-    enable   => true,
+    ensure => running,
+    enable => true,
   }
 }
