@@ -4,8 +4,11 @@
   "author": "CERNOps",
   "summary": "This module is responsible for the installation and configuration of the Cortex application.",
   "license": "Apache-2.0",
-  "source": "https://gitlab.cern.ch/ai/it-puppet-module-cortex",
+  "source": "https://github.com/CERN-CERT/puppet-cortex",
   "dependencies": [
+    {
+      "name": "puppetlabs/vcsrepo"
+    }
   ],
   "operatingsystem_support": [
     {
